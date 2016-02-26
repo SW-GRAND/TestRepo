@@ -50,7 +50,12 @@ namespace Sklad
             }
             MySklad.TSkladAddRow(TBGroup.Text,TBNazva.Text,TBVyrobnyk.Text,pKilkist,pPcina);
             }
-            }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
         }
     
 
